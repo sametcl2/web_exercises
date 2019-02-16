@@ -1,0 +1,93 @@
+@import "normalize";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+$color:#24272D;
+
+header{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+body{
+    background-color: $color;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.scoreboard{
+    margin: 50px auto;
+    border: white solid 3px;
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    padding: 20px 30px;
+
+    .bant{
+        background-color: rgb(241, 90, 74);
+        font-size: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 6px 20px rgba(black, 0.5);
+    }
+
+    #user{
+        position: absolute;
+        left: -25px;
+        top: 30px;
+        padding: 3px 10px;
+    }
+    #comp{
+        position: absolute;
+        right: -32px;
+        top: 30px;
+        padding: 3px 10px;
+    }
+}
+.baslik{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    h3{
+        font-size: 30px;
+    }
+}
+.points{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    .point{
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: -10px 8px 50px rgba(black, 0.5);
+        padding: 20px;
+        margin: 10px 30px;
+        transition-duration: 0.4s;
+
+        &:hover{
+            background-color:rgb(61, 64, 70);
+            cursor: pointer;
+        }
+    }
+}
+.sub{
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+    color: white;
+}
+.yesil{
+    border: rgb(31, 194, 31) solid 5px !important;
+    border-radius: 50%;
+}
+.red{
+    border: red solid 5px !important;
+    border-radius: 50%;
+}
+.gray{
+    border:gray solid 5px !important;
+    border-radius: 50%;
+}
