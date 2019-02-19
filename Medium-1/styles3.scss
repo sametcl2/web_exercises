@@ -1,0 +1,57 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    top:0;
+    right:0;
+    text-align: center;
+    justify-content: space-between;
+    margin-left:120px;
+}
+.header-baslik{
+    font-size: 15px;
+}
+.header-carpi{
+    width: 30px;
+    height: 30px;
+    margin-top:13px;
+    background-color: grey;
+    margin-right: 15px;
+}
+.container{
+    margin: 10px 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+    margin-top: 25px;
+    img{
+        border-radius: 50%;
+    }
+}
+.yorum{
+    margin-left: 20px;
+    .ust{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .saat{
+        margin-right: 40px;
+    }
+    .baslik{
+        margin-top: -19px;
+    }
+    .content{
+        margin-top: -20px;
+        font-size: 15px;
+        p{
+            line-height: 25px;
+        }
+    }
+}

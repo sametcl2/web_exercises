@@ -1,0 +1,76 @@
+body{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.baslik{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+    width: 250px;
+    margin-top: 40%;
+    margin-left:18px;
+
+    p{
+        margin-bottom: -10px;
+        font-size: 13px;
+        color: black;
+    }
+    h1{
+        color: black;
+        font-size: 45px;
+    }
+}
+.buttona{
+    display: flex;
+    margin-top: 10px;
+    .button{
+        text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 12px;
+        width: 83px;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left:18px;
+        
+    }
+}
+.footer{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+
+    .close{
+        display: flex;
+        text-align: center;
+    }
+
+    .close-button{
+        text-decoration: none;
+        color: black;
+        font-size:15px;
+        padding: 10px;
+       
+    }
+
+    .sag{
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        margin-right: 35px;
+    }
+}

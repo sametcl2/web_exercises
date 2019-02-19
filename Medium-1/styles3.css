@@ -1,0 +1,87 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 120px;
+}
+
+.header-baslik {
+  font-size: 15px;
+}
+
+.header-carpi {
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+  background-color: grey;
+  margin-right: 15px;
+}
+
+.container {
+  margin: 10px 30px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.yorum {
+  margin-left: 20px;
+}
+
+.yorum .ust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.yorum .saat {
+  margin-right: 40px;
+}
+
+.yorum .baslik {
+  margin-top: -19px;
+}
+
+.yorum .content {
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+.yorum .content p {
+  line-height: 25px;
+}
+/*# sourceMappingURL=styles3.css.map */
