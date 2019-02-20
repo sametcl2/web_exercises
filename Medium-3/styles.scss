@@ -1,0 +1,62 @@
+@import "../../normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+
+body{
+    background-color: gray;
+    font-family: Roboto, sans-serif;
+}
+.container{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.sol{
+    margin-left: 23px;
+    color: white;
+    width: 60%;
+    font-size: 60px;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: flex-end;
+    position: relative;
+    h1{
+        position: absolute;
+        bottom: 25px;
+        margin-bottom: 0px;
+        line-height: 100px;
+    }
+
+}
+.sag{
+    background-color: white;
+    width: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.yazi{
+    margin-right: 40px;
+    font-size: 16px;
+    color: rgb(145, 139, 139);
+}
+.ust{
+    margin-bottom: 45px;
+    position: relative;
+
+    small{
+        position: absolute;
+        top: 47px;
+        color: rgb(119, 119, 247);
+    }
+    h3{
+        color:black;
+    }
+}
