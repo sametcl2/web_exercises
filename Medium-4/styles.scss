@@ -1,0 +1,109 @@
+@import "../../normalize.scss";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+$fontColor:#A1A1A5;
+$buttonColoe:#4E4D54;
+$buttonFontColor:#DEE0E3;
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: $fontColor;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 20px;
+    align-items: center;
+
+    a{
+        padding: 20px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .ust{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .img{
+            border: 8px solid $buttonColoe;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: $buttonFontColor;
+            box-shadow: 0px 10px 35px rgba(black, 0.5);
+            margin-bottom:10px;
+        }
+        
+        .ust-metin{
+            font-size: 23px;
+        }
+    }
+
+    .orta{
+        display: flex;
+        flex-direction: column;
+        color: $buttonColoe;
+
+        .p-metin{
+            font-size: 20px;
+            margin: 0px auto;
+            margin-bottom: -20px;
+        }
+
+        .orta-secim{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            .eksi{
+                font-size: 40px;
+                margin-right: 53px;
+            }
+            
+            .rakam{
+                font-size: 120px;
+            }
+    
+            .arti{
+                font-size: 40px;
+                margin-left: 53px;
+            }
+        }
+    }
+
+    .alt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        
+        .fp{
+            margin-top: 20px;
+        }
+
+        .sp{
+            color: $buttonColoe;
+            margin-top: -20px;
+        }
+    }
+    
+    .button{
+        text-decoration: none;
+        padding: 22px 45px;
+        background-color: $buttonColoe;
+        color: $buttonFontColor;
+        border-radius: 2px;
+        width: 150px;
+        text-align: center;    
+        box-shadow: 0px 12px 50px rgba(black, 0.6s);
+        margin: 40px auto;
+    }
+}
