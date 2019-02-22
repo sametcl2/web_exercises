@@ -1,0 +1,112 @@
+@import "../../normalize.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    margin: 80px;
+    background-image: url("bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main{
+    background-color: white;
+    width: 60%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container{
+    padding: 60px 50px;
+
+    .titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        #ust-title{
+            font-size: 13px;
+            letter-spacing: 5px;
+            font-weight: bolder;
+            color: rgb(170, 164, 164);
+        }
+
+        .titless{
+            margin-top: -30px;
+
+            #title{
+                font-size: 50px;
+                font-weight:lighter;
+                color: rgb(75, 75, 75);
+            }
+
+            #alt-title{
+                font-size: 17px;
+                margin-top: -30px;
+                line-height: 35px;
+                color: rgb(180, 180, 180);
+            }
+        }
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        .buttonDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px 65px;
+            border: 1px solid rgb(197, 192, 192);
+            border-radius: 6px;
+            margin-bottom: 40px;
+            transition-duration: 0.5s;
+
+            .button{
+                text-decoration: none;
+                margin: 0px auto;
+                letter-spacing: 3px;
+                font-size: 13px;
+            }
+        }
+
+        .buttonDiv:hover{
+            border: none;
+            box-shadow: 0px 6px 45px rgba(#000000, 0.3);
+            cursor: pointer;
+        }
+        .button:visited{
+            color: rgb(110, 110, 110);
+        }
+    }
+    
+    .footer{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .footer-button{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            a{
+                margin-right: 15px;
+                text-decoration: none;
+                color: rgb(23, 23, 124);
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
