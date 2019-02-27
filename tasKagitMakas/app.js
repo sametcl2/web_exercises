@@ -31,7 +31,7 @@ function oyna(userGiris){
 }
 
 function durum(userGiris, compDeger){
-    if(userGiris+compDeger=="tm"||userGiris+compDeger=="kt"||userGiris+compDeger=="mt"){
+    if(userGiris+compDeger=="tm"||userGiris+compDeger=="kt"||userGiris+compDeger=="mk"){
         win(userGiris, compDeger);
     }
     else if(userGiris+compDeger=="tt"||userGiris+compDeger=="kk"||userGiris+compDeger=="mm"){
