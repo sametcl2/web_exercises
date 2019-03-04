@@ -44,6 +44,7 @@ function show(){
         result.innerHTML+='<li class="list-group-item d-flex justify-content-between m-2 p-4">'+
                           '<h4 class="align-middle">'+yeniGorev+'</h4>'+
                           '<button class="btn btn-primary" id="sil" onclick="deletee(\''+yeniGorev+'\')">Done!</button>'+
+                          '</hr>'+
                           '</li>';
     }
 }
