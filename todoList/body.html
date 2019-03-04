@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body onload="show()">
+<body onload="show()" onload="bitti()">
     <div class="container">
         <nav class="navbar navbar-secondary bg-light mb-4">
             <div class="navbar-brand" href="#">To-Do List</div>
@@ -17,37 +17,37 @@
             <input type="text" class="w-50 p-3 my-4 mx-auto" id="input" placeholder="Add your task...">
             <button class="btn btn-primary w-25 p-3 mx-auto" id="btn">Submit</button>
         </div>
-        <hr class="mt-5">
+        <hr class="m-4">
         <div class="m-3">
             <div class="accordion" id="accordionExample">
                 <div class="card">
-                  <div class="card-header" id="headingOne">
+                    <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Yapılacaklar
                       </button>
                     </h2>
-                  </div>
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <ul class="list-group mt-5" id="show">
-                        </ul>  
                     </div>
-                  </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul class="list-group mt-5" id="show">
+                            </ul>  
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Yapılan İşler
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <ul class="list-group mt-5" id="bitti">
-                        </ul> 
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Yapılan İşler
+                        </button>
+                        </h2>
                     </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul class="list-group mt-5" id="bitti">
+                            </ul> 
+                        </div>
                   </div>
                 </div>
             </div>
