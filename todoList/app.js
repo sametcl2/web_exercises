@@ -80,4 +80,5 @@ function show(){
                           '<button class="btn btn-primary" id="sil" onclick="switchh(\''+yeniGorev+'\')">Done!</button>'+
                           '</li>';
     }
+    bitti();
 }
