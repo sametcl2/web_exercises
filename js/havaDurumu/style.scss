@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(rgb(120, 148, 170), rgb(8, 50, 99));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .alan{
+
+        .input{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                border-radius: 5px;
+                width: 300px;
+                height: 25px;
+                font-size: 18px;
+                margin-bottom: 50px;
+            }
+            button{
+                width: 150px;
+                border-radius: 7px;
+                text-decoration: none;
+                border: none;
+                padding: 10px;
+            }
+        }
+        .sonuc{
+            display: flex;
+            flex-direction: row;
+            p{
+                font-size: 45px;
+                color: white;
+                margin: 50px 80px;
+            }
+        }
+    }
+
+}

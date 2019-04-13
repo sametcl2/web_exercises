@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sass Compile",
+            "type": "shell",
+            "command": "node-sass havaDurumu/style.scss havaDurumu/style.css",
+            "group": "build"
+        }
+    ]
+}
