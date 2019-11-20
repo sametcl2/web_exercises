@@ -1,0 +1,321 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px; }
+
+section {
+  height: 100vh; }
+
+.bottom-info {
+  position: fixed;
+  bottom: 11px;
+  right: 12px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: 0px 40px 80px -10px black;
+  cursor: pointer; }
+  .bottom-info .inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .bottom-info .inner img {
+      width: 16px;
+      height: 16px;
+      margin-left: 17px; }
+    .bottom-info .inner p {
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 10px;
+      margin-right: 17px; }
+
+#main-section {
+  background-image: url("./src/background.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.Header {
+  background-color: transparent;
+  padding: 22px; }
+  .Header-icon {
+    position: relative;
+    top: -3px;
+    cursor: pointer; }
+  .Header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .Header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 27px;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-weight: 500; }
+  .Header-nav a:hover {
+    border-bottom: solid 2px white; }
+  .Header-nav-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 3px; }
+    .Header-nav-inner p {
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 4px;
+      margin-top: -1px;
+      margin-bottom: -1px; }
+
+.Info {
+  background-color: white;
+  width: 440px;
+  border-radius: 5px;
+  margin: 30px 75px;
+  box-shadow: 0px 40px 70px -10px black; }
+  .Info-container {
+    padding: 17px 25px; }
+  .Info h1 {
+    font-size: 30px;
+    width: 100%; }
+  .Info-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .Info-form-item {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px; }
+      .Info-form-item-label {
+        font-weight: bold;
+        margin-bottom: 3px;
+        letter-spacing: 1px;
+        font-size: 13px; }
+    .Info-form-middle {
+      display: flex;
+      width: 100%;
+      margin-top: 10px; }
+    .Info-form-input {
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 15px; }
+      .Info-form-input-giris {
+        padding: 15px 20px;
+        border: 1px solid #ccc;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        font-size: 15px; }
+      .Info-form-input-cikis {
+        padding: 15px 20px;
+        border: 1px solid #ccc;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        font-size: 15px;
+        margin-left: -1px; }
+    .Info-form-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; }
+    .Info-form-button {
+      padding: 15px 25px;
+      font-weight: bold;
+      border-radius: 4px;
+      border: none;
+      margin-top: 25px;
+      background-color: #FF5A5F;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer; }
+  .Info-bottom {
+    position: absolute;
+    right: 3px;
+    bottom: 20px;
+    width: 15%; }
+    .Info-bottom-info {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500; }
+    .Info-bottom :hover {
+      text-decoration: underline; }
+
+.container {
+  margin: 15px 80px; }
+
+.Cards-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  width: 100 .Cards-upper; }
+  .Cards-upper-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .Cards-upper-info-card {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      width: 330px;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2); }
+      .Cards-upper-info-card img {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        width: 125px;
+        height: 85px; }
+      .Cards-upper-info-card-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 22px; }
+        .Cards-upper-info-card-info p {
+          font-weight: 500;
+          font-size: 17px; }
+
+.Cards-main {
+  margin-top: 70px;
+  position: relative; }
+  .Cards-main img {
+    width: 100%;
+    height: 480px;
+    border-radius: 13px; }
+  .Cards-main-info {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 80px; }
+    .Cards-main-info-middle {
+      margin-top: -20px; }
+      .Cards-main-info-middle h1 {
+        font-size: 45px; }
+      .Cards-main-info-middle p {
+        margin-top: -25px;
+        font-size: 18px; }
+    .Cards-main-info button {
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      border: none;
+      padding: 15px 20px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 25px;
+      cursor: pointer; }
+
+.Third {
+  margin-top: -50px; }
+  .Third-info {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; }
+    .Third-info h1 {
+      font-size: 25px; }
+    .Third-info p {
+      margin-top: -15px; }
+    .Third-info-bottom {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .Third-info-bottom p {
+        width: 40%; }
+      .Third-info-bottom img {
+        display: none;
+        position: relative;
+        top: -20px;
+        margin-left: 10px; }
+  .Third-info:hover img {
+    display: flex; }
+  .Third-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%; }
+    .Third-cards-card {
+      width: 250px;
+      cursor: pointer; }
+      .Third-cards-card img {
+        width: 260px;
+        height: 345px;
+        border-radius: 7px; }
+      .Third-cards-card-header {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: -12px; }
+  .Third-bottom {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .Third-bottom svg {
+      margin-left: 3px; }
+    .Third-bottom-link {
+      font-size: 18px;
+      font-weight: 500;
+      color: #1ABC9C;
+      text-decoration: none; }
+
+.Fourth {
+  margin-top: -50px; }
+  .Fourth-upper {
+    margin-bottom: 30px; }
+    .Fourth-upper p {
+      margin-top: -17px; }
+  .Fourth-main {
+    position: relative;
+    background-image: url("./src/fourth-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 6px; }
+    .Fourth-main button {
+      position: absolute;
+      bottom: 10px;
+      left: 41%;
+      bottom: 23%;
+      padding: 19px 28px;
+      border: none;
+      border-radius: 8px;
+      background-color: white;
+      font-size: 11px;
+      font-weight: bold;
+      cursor: pointer; }
+
+.Fifth {
+  margin-top: -290px; }
+  .Fifth-carousel {
+    display: flex;
+    flex-direction: row; }
+    .Fifth-carousel-card {
+      margin-right: 15px;
+      cursor: pointer; }
+      .Fifth-carousel-card img {
+        position: relative;
+        width: 260px;
+        height: 320px;
+        border-radius: 5px; }
+      .Fifth-carousel-card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        margin-top: -100px;
+        color: white; }
+        .Fifth-carousel-card-info p {
+          margin-top: -15px;
+          font-weight: 500; }
